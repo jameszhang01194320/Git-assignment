@@ -1,3 +1,44 @@
-Homework for git assignment
-from week one
+Homework for git assignment for week one
 submitted on May 27, 2024
+
+How to use Git to manage files
+
+Use Git Base to do this work.
+
+1. 
+In intro_to_ct fold, create a folder named Git-assignment as repository
+open Git-assignment use Git-Base
+Initialize the repository: 
+	git init
+
+Adding Files to the folder
+(I copy two files:MovieLightPlannerFlowchart2024.5.22.drawio.pdf and Readme.txt to this folder)
+Use the git add command to Stage files for commit: 
+	git add .
+
+Commit staged files: 
+	git commit -m "homework Git-assignment"
+
+2.
+Connecting to GitHub
+Since I already create an account "d01194320" in Github,I don't need create a new one,
+but the account is hard to understand, I change the user name to jameszhang01194320.
+
+On github, create a new repository:Git-assignment, 
+then clone the ssh link: Copy the repository URL: 
+
+	git@github.com:jameszhang01194320/Git-assignment.git
+
+3.
+Back to my desktop, in Git Bash, use command to connect my local repository to the new GitHub repository:
+	
+	git remote add origin git@github.com:jameszhang01194320/Git-assignment.git
+
+Push my local commits to GitHub: 
+
+	git push origin master
+
+Go to Github to find the pushed files,
+copy the address:
+	https://github.com/jameszhang01194320/Git-assignment.git
+Submit the works.

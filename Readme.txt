@@ -36,6 +36,8 @@ Back to my desktop, in Git Bash, use command to connect my local repository to t
 
 Push my local commits to GitHub: 
 
+4. use git clone https://github.com/jameszhang01194320/Git-assignment.git
+
 	git push origin master
 
 Go to Github to find the pushed files,

@@ -52,12 +52,8 @@ git config --global user.email "你的新邮箱@example.com"
 1. 清除 Git 缓存的旧凭证
 在终端或命令提示符中运行以下命令：
 
-sh
-Copy code
-git credential-cache exit
-2. 清除凭证管理器中的旧凭证
-对于 Windows 用户，使用凭证管理器清除旧的 GitHub 凭证：
-
+记住:
+git pull origin master --allow-unrelated-histories
 打开“凭证管理器”（可以通过在开始菜单中搜索 Credential Manager 打开）。
 选择“Windows 凭证”。
 找到与 github.com 相关的条目，并将其删除。
